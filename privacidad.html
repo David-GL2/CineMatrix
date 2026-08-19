@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacidad — CineMatrix</title>
+<meta name="description" content="Política de privacidad de CineMatrix: qué datos trata la app, con quién se comunica y qué no se recopila nunca.">
+<link rel="icon" href="logo.png">
+<link rel="alternate" hreflang="es" href="./privacidad.html">
+<link rel="alternate" hreflang="en" href="en/privacy.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-brand">
+      <img src="logo.png" alt="">
+      CineMatrix
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#caracteristicas">Características</a></li>
+      <li><a href="index.html#vistazo">Un vistazo</a></li>
+      <li><a href="index.html#precio">Precio</a></li>
+    </ul>
+    <a class="nav-cta" href="index.html">← Volver</a>
+    <a class="lang-switch" href="en/privacy.html" aria-label="Switch to English">EN</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <article class="legal">
+    <h1>Política de privacidad</h1>
+    <p class="updated">Última actualización: agosto de 2026</p>
+
+    <p>
+      CineMatrix es una aplicación de escritorio para Windows que cataloga y organiza
+      archivos de vídeo que ya tienes en tu propio equipo. Esta página explica, sin
+      rodeos, qué datos trata la aplicación, de dónde vienen y qué no se recopila nunca.
+    </p>
+
+    <h2>Resumen rápido</h2>
+    <ul>
+      <li>Todos tus datos (tu biblioteca, categorías, preferencias) se guardan <strong>en tu propio PC</strong>, junto al ejecutable de la app.</li>
+      <li>El desarrollador de CineMatrix <strong>no recibe, no almacena y no puede ver</strong> ninguno de esos datos.</li>
+      <li>No hay cuentas de usuario, ni registro, ni inicio de sesión.</li>
+      <li>No hay anuncios ni rastreo con fines publicitarios.</li>
+      <li>La app hace peticiones de red a dos servicios externos, descritos abajo: TheTVDB (metadatos y portadas) y Microsoft Store (verificación de licencia).</li>
+    </ul>
+
+    <h2>Qué se guarda, y dónde</h2>
+    <p>
+      Al escanear una carpeta, CineMatrix crea una carpeta <code>data</code> junto al
+      propio ejecutable de la aplicación. Ahí se guarda, en archivos de texto locales:
+    </p>
+    <ul>
+      <li>La ficha de cada película o serie (título, año, géneros, sinopsis, ruta del archivo en tu disco, etc.).</li>
+      <li>Las portadas descargadas, guardadas como imágenes en esa misma carpeta.</li>
+      <li>Tus categorías personalizadas, favoritos y marcas de "visto".</li>
+      <li>El nombre y la última ruta escaneada de cada biblioteca que hayas creado.</li>
+    </ul>
+    <p>
+      Nada de esto sale de tu equipo salvo en los dos casos concretos que se explican
+      a continuación. Si desinstalas la aplicación o borras esa carpeta <code>data</code>,
+      esa información desaparece por completo — no queda copia en ningún otro sitio,
+      porque nunca la hubo.
+    </p>
+
+    <h2>Comunicaciones con servicios externos</h2>
+
+    <h2 style="font-size:17px; margin-top:28px;">TheTVDB (metadatos y portadas)</h2>
+    <p>
+      Cuando escaneas una carpeta o corriges la identificación de un título, CineMatrix
+      envía el texto de búsqueda (el nombre del archivo, ya procesado) directamente
+      desde tu equipo a la API de <a href="https://thetvdb.com" target="_blank" rel="noopener">TheTVDB</a>,
+      para obtener título, sinopsis, género, país y portada. Esta petición no incluye
+      ningún dato personal tuyo — ni tu nombre, ni tu ubicación, ni ningún identificador
+      de usuario, porque la aplicación no te pide ni conoce esos datos. El tratamiento
+      que TheTVDB haga de esas peticiones (por ejemplo, registros técnicos de servidor)
+      se rige por su propia política, que puedes consultar en
+      <a href="https://thetvdb.com" target="_blank" rel="noopener">thetvdb.com</a>.
+    </p>
+
+    <h2 style="font-size:17px; margin-top:28px;">Microsoft Store (licencia)</h2>
+    <p>
+      Si instalaste CineMatrix desde Microsoft Store, la aplicación consulta a Windows,
+      al arrancar, si tu instalación tiene una licencia válida (la compra que
+      hiciste en la Store). Esta comprobación la gestiona el propio sistema operativo;
+      CineMatrix no ve ni almacena ningún dato de pago — eso lo procesa Microsoft
+      directamente, conforme a su
+      <a href="https://privacy.microsoft.com/es-es/privacystatement" target="_blank" rel="noopener">política de privacidad</a>.
+    </p>
+
+    <h2>Lo que CineMatrix nunca hace</h2>
+    <ul>
+      <li>No incluye anuncios ni SDKs de publicidad.</li>
+      <li>No incluye analítica de uso ni rastreo de comportamiento.</li>
+      <li>No sube tu biblioteca, tus archivos ni sus nombres a ningún servidor propio del desarrollador — porque no existe tal servidor.</li>
+      <li>No accede a más carpetas de tu disco que las que tú eliges escanear explícitamente.</li>
+      <li>No reproduce ni transmite contenido audiovisual: se limita a abrir tus archivos con el reproductor que ya tengas configurado por defecto en Windows.</li>
+    </ul>
+
+    <h2>Menores de edad</h2>
+    <p>
+      CineMatrix no está dirigida a menores de edad ni recopila intencionadamente
+      datos de menores; de hecho, no recopila datos personales de ningún usuario,
+      como se explica arriba.
+    </p>
+
+    <h2>Cambios en esta política</h2>
+    <p>
+      Si esta política cambia de forma relevante, se actualizará la fecha de arriba
+      y se indicará en el repositorio del proyecto cuando el cambio sea significativo.
+    </p>
+
+    <h2>Contacto</h2>
+    <p>
+      Para cualquier duda sobre esta política o sobre cómo funciona CineMatrix,
+      puedes contactar por email:
+      <a href="#" id="email-link">📧 Contacto por email</a>
+    </p>
+  </article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-fine">
+      <span>© 2026 DGL-Dev</span>
+      <span><a href="index.html">Volver a CineMatrix</a></span>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

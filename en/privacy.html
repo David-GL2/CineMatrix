@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy — CineMatrix</title>
+<meta name="description" content="CineMatrix privacy policy: what data the app handles, who it talks to, and what's never collected.">
+<link rel="icon" href="../logo.png">
+<link rel="alternate" hreflang="es" href="../privacidad.html">
+<link rel="alternate" hreflang="en" href="./privacy.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-brand">
+      <img src="../logo.png" alt="">
+      CineMatrix
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#preview">A look inside</a></li>
+      <li><a href="index.html#pricing">Pricing</a></li>
+    </ul>
+    <a class="nav-cta" href="index.html">← Back</a>
+    <a class="lang-switch" href="../privacidad.html" aria-label="Cambiar a español">ES</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <article class="legal">
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated: August 2026</p>
+
+    <p>
+      CineMatrix is a Windows desktop application that catalogs and organizes
+      video files you already have on your own computer. This page explains,
+      plainly, what data the app handles, where it comes from, and what's never collected.
+    </p>
+
+    <h2>Quick summary</h2>
+    <ul>
+      <li>All your data (your library, categories, preferences) is saved <strong>on your own PC</strong>, next to the app's executable.</li>
+      <li>CineMatrix's developer <strong>never receives, stores, or can see</strong> any of that data.</li>
+      <li>There are no user accounts, no sign-up, no login.</li>
+      <li>There are no ads and no tracking for advertising purposes.</li>
+      <li>The app makes network requests to two outside services, described below: TheTVDB (metadata and cover art) and Microsoft Store (license verification).</li>
+    </ul>
+
+    <h2>What gets saved, and where</h2>
+    <p>
+      When you scan a folder, CineMatrix creates a <code>data</code> folder next to
+      the application's own executable. That's where the following is saved, in local text files:
+    </p>
+    <ul>
+      <li>Each movie or show's entry (title, year, genres, synopsis, the file's path on your drive, etc.).</li>
+      <li>Downloaded cover art, saved as images in that same folder.</li>
+      <li>Your custom categories, favorites and "watched" marks.</li>
+      <li>The name and last scanned path of each library you've created.</li>
+    </ul>
+    <p>
+      None of this leaves your computer except in the two specific cases explained
+      below. If you uninstall the app or delete that <code>data</code> folder, that
+      information is gone for good — there's no copy anywhere else, because there never was one.
+    </p>
+
+    <h2>Communication with outside services</h2>
+
+    <h2 style="font-size:17px; margin-top:28px;">TheTVDB (metadata and cover art)</h2>
+    <p>
+      When you scan a folder or correct a title's identification, CineMatrix sends
+      the search text (the filename, already processed) directly from your machine
+      to the <a href="https://thetvdb.com" target="_blank" rel="noopener">TheTVDB</a> API,
+      to get the title, synopsis, genre, country and cover art. This request doesn't
+      include any personal data of yours — no name, no location, no user identifier,
+      because the app never asks for or knows any of that. How TheTVDB handles those
+      requests on their end (technical server logs, for instance) is governed by
+      their own policy, which you can check at
+      <a href="https://thetvdb.com" target="_blank" rel="noopener">thetvdb.com</a>.
+    </p>
+
+    <h2 style="font-size:17px; margin-top:28px;">Microsoft Store (license)</h2>
+    <p>
+      If you installed CineMatrix from Microsoft Store, the app asks Windows, on
+      startup, whether your installation has a valid license (the purchase you made
+      in the Store). This check is handled by the operating system itself; CineMatrix
+      never sees or stores any payment data — that's processed directly by Microsoft,
+      under their own
+      <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="noopener">privacy statement</a>.
+    </p>
+
+    <h2>What CineMatrix never does</h2>
+    <ul>
+      <li>No ads and no advertising SDKs.</li>
+      <li>No usage analytics and no behavioral tracking.</li>
+      <li>Never uploads your library, your files, or their names to any server owned by the developer — because no such server exists.</li>
+      <li>Never accesses any folder on your drive beyond the ones you explicitly choose to scan.</li>
+      <li>Doesn't play or stream any audiovisual content itself: it simply opens your files with whichever player you already have set as default on Windows.</li>
+    </ul>
+
+    <h2>Children's privacy</h2>
+    <p>
+      CineMatrix is not directed at children and doesn't knowingly collect data
+      from minors; in fact, it doesn't collect personal data from any user at all,
+      as explained above.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      If this policy changes in any meaningful way, the date above will be updated
+      and it will be noted in the project's repository when the change is significant.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For any question about this policy or about how CineMatrix works,
+      you can contact by email:
+      <a href="#" id="email-link">📧 Contact by email</a>
+    </p>
+  </article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-fine">
+      <span>© 2026 DGL-Dev</span>
+      <span><a href="index.html">Back to CineMatrix</a></span>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
